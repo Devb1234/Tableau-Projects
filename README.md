@@ -1,60 +1,83 @@
-# 🏡 Airbnb Data Analytics Dashboard
+# 🏡 Airbnb Data Analysis - Tableau Project
 
-![Tableau](https://img.shields.io/badge/Built%20With-Tableau-blue.svg)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Tableau](https://img.shields.io/badge/Tool-Tableau-blue.svg)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-> An interactive Tableau project analyzing Airbnb listings using real-world data to uncover insights on pricing, availability, reviews, and top-performing neighborhoods.
+## 📊 Project Overview
+
+This Tableau project provides a comprehensive analysis of Airbnb listings using a rich dataset comprising pricing, availability, location, and review metrics.  
+The goal is to uncover business insights for hosts and customers alike, using **interactive dashboards** to make data-driven decisions easier and more intuitive.
 
 ---
 
-## 📸 Preview
+## 🗂️ Project Files
 
-![Dashboard Preview](assets/dashboard-screenshot.png)  
-<sub>*Replace this image with a screenshot of your actual dashboard.*</sub>
-
----
-
-## 📌 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Key Insights](#-key-insights)
-- [Features](#-features)
-- [Getting Started](#-getting-started)
-- [File Structure](#-file-structure)
-- [Tools Used](#-tools-used)
-- [Author](#-author)
+- `AirBnB Full Project.twbx` – Tableau packaged workbook containing all dashboards, charts, and visualizations.
+- `Tableau Full Project.xlsx` – Primary dataset used for analysis, including cleaned and structured data on Airbnb listings.
 
 ---
 
-## 🧠 Project Overview
+## 📌 Key Features
 
-This project explores a curated Airbnb dataset through powerful Tableau dashboards. It enables hosts, analysts, and stakeholders to make smarter business decisions by uncovering trends in bookings, pricing, reviews, and availability.
-
----
-
-## 💡 Key Insights
-
-- 🏙️ **Neighborhood Trends**: Discover which neighborhoods offer the best ROI.
-- 💰 **Pricing Patterns**: Understand how prices fluctuate by property type and season.
-- 📅 **Availability Calendar**: Track which months see the highest bookings.
-- 🌟 **Review Correlations**: Explore the link between review ratings and occupancy.
+- **💰 Price Distribution**: Visual breakdown of prices across cities and neighborhoods.
+- **📅 Availability Heatmaps**: Calendar-style views of booking availability by month.
+- **🌟 Review Analytics**: Average ratings and review counts segmented by property types.
+- **🏆 Top Listings**: Identify high-performing listings based on reviews and occupancy.
+- **🗺️ Geospatial Mapping**: Interactive maps showing listing locations and price intensity.
 
 ---
 
-## ✨ Features
+## 💡 Insights Highlighted
 
-- 📊 **Dynamic Visualizations** – Interactive dashboards with filters by price, location, and room type.
-- 🗺️ **Geospatial Mapping** – Heatmaps showing price and popularity by area.
-- 📆 **Monthly Trends** – Visualize seasonal demand.
-- 🔍 **Searchable Listings** – Filter to find top-performing hosts.
+- Which neighborhoods have the highest average nightly rates?
+- What type of properties are most frequently booked?
+- How do reviews correlate with pricing and occupancy?
+- What trends can we observe across different months?
 
 ---
 
-## 🚀 Getting Started
+## 📈 Tools Used
 
-To run this project locally:
+- **Tableau Public / Tableau Desktop**
+- **Microsoft Excel** – For data cleaning and formatting
 
-1. **Clone this repo**:
-   ```bash
-   git clone https://github.com/Devb1234/airbnb-tableau-dashboard.git
+---
+
+## 📥 Getting Started
+
+To explore this project on your local machine:
+
+1. Open `Tableau Full Project.xlsx` to examine the dataset.
+2. Launch Tableau Desktop or Tableau Public.
+3. Open `AirBnB Full Project.twbx`.
+4. Interact with the dashboards and filters to explore insights.
+
+> 🔧 *If the data source breaks, reconnect it manually in Tableau using the `.xlsx` file.*
+
+---
+
+## 🧹 Data Cleaning Steps
+
+- Removed missing or duplicate entries.
+- Converted categorical fields to appropriate formats.
+- Derived new columns such as:
+  - `Price per Room`
+  - `Review Score Category`
+
+---
+
+## 👨‍💻 Author
+
+**Dev Bansal**  
+🎓 Undergraduate Student | 🚀 Aspiring Data Scientist
+
+📬 Feel free to connect:  
+- [LinkedIn](https://www.linkedin.com/in/devbansals)
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
